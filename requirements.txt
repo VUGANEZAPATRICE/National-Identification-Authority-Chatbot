@@ -1,0 +1,16 @@
+detectlanguage
+Flask
+flask_cors
+flask_ngrok
+nltk
+numpy
+requests
+torch
+gunicorn
+# torch==1.13.1
+
+
+#pip install -r requirements.txt
+# pip install pipreqs
+# pipreqs path/to/project
+# flask --app app run   //to run this app
