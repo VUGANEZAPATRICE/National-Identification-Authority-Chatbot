@@ -45,7 +45,7 @@
       ]
     },
     {
-      "tag": "´NIDAServices",
+      "tag": "services",
       "patterns": [
         "Services offered at NIDA",
         "What is the range of services available at NIDA?",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "tag": "Lost_stolen_ID",
+      "tag": "LostStolenID",
       "patterns": [
         "The process of a lost or stolen identity card",
         "What is the procedure for reporting a lost or stolen identity card?",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "tag": "Diaspora_services",
+      "tag": "DiasporaServices",
       "patterns": [
         "How does one go about registering to get Identity card(ID) as a member of the diaspora?",
         "What is the process for registering for diaspora to get id card?",
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "tag": "diaspora_documents_rwandan",
+      "tag": "diasporaDocumentsRwandan",
       "patterns": [
         "What documents are used to prove that the applicant is Rwandan?",
         "Can you list the documents used to confirm Rwandan nationality?",
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "tag": "diaspora_documents_identity",
+      "tag": "diasporaDocsIdentity",
       "patterns": [
         "What documents can be used to indicate the identity of the applicant?",
         "Can you list the types of documents that can be used to establish the identity of an applicant?",
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "tag": "BIOMETRIC_DATA_CAPTURE",
+      "tag": "BiometricDataCapture",
       "patterns": [
         "Where is the biometric data captured?",
         "What are the methods used to capture biometric data?",
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "tag": "getting_id_affter_biometrics",
+      "tag": "getIdAffterBiometrics",
       "patterns": [
         "Where, when can I get an ID after biometrics?",
         "What is the location for capturing biometric data?",
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "tag": "When_Where_receivingID",
+      "tag": "WheWhereReceivingID",
       "patterns": [
         "When and where Biometric Data capture is taken?",
         "What is the schedule and location for capturing biometric data?",
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "tag": "ID_CORRECTION_PROCESS",
+      "tag": "IdCorrectionProcess",
       "patterns": [
         "What are the essential documents required for correcting/updating an identity card in English?",
         "Can you list the basic documents needed for correcting/updating an English identity card?",
@@ -195,7 +195,7 @@
       ]
     },
     {
-      "tag": "CITIZEN_REGISTRATION",
+      "tag": "CitizenRegistration",
       "patterns": [
         "Can you explain the process for registering for an identity card?",
         "How does one go about obtaining an identity card through registration?",
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "tag": "SPECIAL_CASES",
+      "tag": "SpecialCases",
       "patterns": [
         "What is required to urgently obtain an identity card?",
         "Can you provide a list of the requirements to get an identity card as soon as possible?",
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "tag": "rib_station",
+      "tag": "ribStation",
       "patterns": [
         "How can I know the RIB station to report to?",
         "Where should I go to report to a RIB station?",
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "tag": "received_request",
+      "tag": "receivedRequest",
       "patterns": [
         "How can I know that my request is received?",
         "See you later",
@@ -275,7 +275,7 @@
       ]
     },
     {
-      "tag": "rib_docs",
+      "tag": "ribDocs",
       "patterns": [
         "What is the required document when I go to RIB?",
         "What documents do I need to bring to RIB?",
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "tag": "after_rib",
+      "tag": "afterRib",
       "patterns": [
         "What happens after RIB' approve?",
         "What are the next steps after RIB approval?",
@@ -303,7 +303,7 @@
       ]
     },
     {
-      "tag": "billing_irembo",
+      "tag": "billingIrembo",
       "patterns": [
         "How do you get a billing number from Irembo?",
         "What is the process for obtaining a billing number from Irembo?",
@@ -317,7 +317,7 @@
       ]
     },
     {
-      "tag": "replacement_cost",
+      "tag": "replacementCost",
       "patterns": [
         "How much does a replacement ID cost?",
         "What is the fee for a new ID?",
@@ -331,7 +331,7 @@
       ]
     },
     {
-      "tag": "id_produced",
+      "tag": "idProduced",
       "patterns": [
         "How can I know if my ID is produced?",
         "Is there a way to check if my ID has been manufactured?",
@@ -345,7 +345,7 @@
       ]
     },
     {
-      "tag": "abroad_id",
+      "tag": "abroadId",
       "patterns": [
         "How does a Rwandan living abroad apply for a lost identity card?",
         "What is the procedure for a Rwandan living overseas to obtain a replacement identity card?",
@@ -359,7 +359,7 @@
       ]
     },
     {
-      "tag": "rib_far_frome",
+      "tag": "ribFarFrome",
       "patterns": [
         "In case RIB stations are far from me, what should I do?",
         "What are the alternatives if RIB stations are not close to my location?",
@@ -371,7 +371,6 @@
       "responses": [
         "You will find a list of RIB stations on Irembo website."
       ]
-      
     },
     {
       "tag": "place",
@@ -381,12 +380,153 @@
         "Can you tell me where to go to get an identity card?",
         "Can you suggest a spot to obtain my identity card?",
         "Where would I go to secure an identity card?"
-        
       ],
       "responses": [
         "180 sectors have been set up to facilitate a citizen. IDs are completed in 30 days and are sent the sector of residence, where the applicant can go and recuperate his/her ID."
       ]
-      
+    },
+    {
+      "tag": "processingTime",
+      "patterns": [
+        "How long does it take to process an identity card?",
+        "What is the processing time for a new identity card?",
+        "When can I expect my identity card to be ready?",
+        "How soon can I get my identity card after applying?",
+        "How many days does it take to process an identity card application?"
+      ],
+      "responses": [
+        "It usually takes around 20 working days to process an identity card application."
+      ]
+    },
+    {
+      "tag": "fee",
+      "patterns": [
+        "How much does it cost to obtain an identity card?",
+        "What is the fee for a new identity card?",
+        "What is the cost of obtaining an identity card?",
+        "Can you tell me how much I need to pay for an identity card?",
+        "What is the price of getting an identity card issued?"
+      ],
+      "responses": [
+        "The fee for obtaining an identity card is 500 Rwandan Francs."
+      ]
+    },
+    {
+      "tag": "renewal",
+      "patterns": [
+        "How do I renew my identity card?",
+        "What is the process for renewing an identity card?",
+        "How can I replace my expired identity card?",
+        "What are the requirements for renewing an identity card?",
+        "Can you provide information on how to renew an identity card?"
+      ],
+      "responses": [
+        "To renew your identity card, you need to visit a NIDA center with your expired card and a document proving your identity. The fee for renewing an identity card is 1500 Rwandan Francs."
+      ]
+    },
+    {
+      "tag": "replacement",
+      "patterns": [
+        "How do I replace a lost or damaged identity card?",
+        "What is the process for replacing a lost or damaged identity card?",
+        "How can I get a replacement identity card?",
+        "What are the requirements for replacing a lost or damaged identity card?",
+        "Can you provide information on how to replace a lost or damaged identity card?"
+      ],
+      "responses": [
+        "To replace a lost or damaged identity card, you need to visit a NIDA center with a document proving your identity. The fee for replacing a lost or damaged identity card is 1500 Rwandan Francs."
+      ]
+    },
+    {
+      "tag": "identityCardValidity",
+      "patterns": [
+        "How long is an identity card valid?",
+        "What is the validity period of an identity card?",
+        "How many years is an identity card valid for?",
+        "When does an identity card need to be renewed?",
+        "Can you tell me the duration of an identity card's validity?"
+      ],
+      "responses": [
+        "An identity card is valid for more than 10 years."
+      ]
+    },
+    {
+      "tag": "documentationRequirements",
+      "patterns": [
+        "What documents are required to apply for an identity card?",
+        "What is needed to get an identity card?",
+        "What paperwork is required for an identity card application?",
+        "Can you provide a list of required documents for an identity card application?",
+        "What do I need to provide to get an identity card issued?"
+      ],
+      "responses": [
+        "To apply for an identity card, you need to provide a document proving your identity (school card, insurance card or certificate issued by the Sector (full identity certificate, identity card)), payment of 500Frw using IREMBO."
+      ]
+    },
+    {
+      "tag": "cardIssuanceLocation",
+      "patterns": [
+        "Where can I obtain an identity card?",
+        "What is the location to get an identity card issued?",
+        "Where can I get an identity card?",
+        "What are the places to get an identity card issued?",
+        "Can you provide information on the location to obtain an identity card?"
+      ],
+      "responses": [
+        "Identity cards can be obtained at NIDA centers."
+      ]
+    },
+    {
+      "tag": "onlineServices",
+      "patterns": [
+        "What online services does NIDA offer?",
+        "Can I apply for an identity card online?",
+        "What are the online services available at NIDA?",
+        "What kind of online services are provided by NIDA?",
+        "Can you provide information on the online services offered by NIDA?"
+      ],
+      "responses": [
+        "NIDA offers online services for identity card application and payment through the IREMBO platform (irembo.gov.rw/user/citizen/service/nida/application_for_national_id)."
+      ]
+    },
+    {
+      "tag": "identityCardUsage",
+      "patterns": [
+        "What is the purpose of an identity card?",
+        "What are the uses of an identity card?",
+        "What is the significance of an identity card?",
+        "Can you explain the importance of an identity card?",
+        "Why is an identity card necessary?"
+      ],
+      "responses": [
+        "An identity card serves as a form of official identification and is required for various activities, such as opening a bank account, voting, and accessing government services."
+      ]
+    },
+    {
+      "tag": "identityVerification",
+      "patterns": [
+        "How can I verify my identity?",
+        "What is the process for verifying identity?",
+        "How can I prove my identity?",
+        "What are the ways to verify identity?",
+        "Can you provide information on how to verify identity?"
+      ],
+      "responses": [
+        "NIDA uses Biometric Verification: To verify that the person presenting the ID is the same individual whose portrait appears on the ID"
+      ]
+    },
+    {
+      "tag": "DOCUMENTS_FOR_CITIZENSHIP",
+      "patterns": [
+        "What documents do I need to prove my citizenship?",
+        "What are the required documents for obtaining citizenship?",
+        "Can you list the documents needed to prove citizenship?",
+        "Are there specific documents required for citizenship?",
+        "Could you provide a list of the documents needed for citizenship?"
+      ],
+      "responses": [
+        "1. Birth certificate. 2. Proof of continuous residency in the country for a certain period of time. 3. Proof of knowledge of the language, history, and culture of the country. 4. Proof of good character, such as a criminal background check."
+      ]
     }
   ]
 }
